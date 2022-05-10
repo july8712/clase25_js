@@ -110,3 +110,13 @@
 // const base = prompt("Ingrese la base del triángulo");
 // const altura = prompt("Ingrese la altura del triángulo");
 // console.log(`El área del triángulo es de ${(base * altura) /2 }`);
+
+// ----------------------------------------------------------------
+
+// Perímetro de un rectángulo
+
+// Crear un programa que pida al usuario ingresar el valor de la altura y el valor del ancho de un rectángulo, calcular su perímetro y mostrarlo en un mensaje.
+
+const altura = prompt("Ingrese la altura del rectángulo");
+const ancho = prompt("Ingrese el ancho del rectángulo");
+console.log(`El perímero del rectángulo es de ${altura*2 + ancho*2}`);

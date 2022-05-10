@@ -98,5 +98,15 @@
 
 // Crear un programa que pida ingresar una cantidad de kilómetros y muestre un mensaje con el resultado de la conversión en millas.
 
-const km = prompt("Ingrese cantidad de km");
-console.log(`${km} km equivalen a ${km / 1.609344} millas`);
+// const km = prompt("Ingrese cantidad de km");
+// console.log(`${km} km equivalen a ${km / 1.609344} millas`);
+
+// ----------------------------------------------------------------
+
+// Área de un triangulo
+
+// Crear un programa que pida al usuario ingresar el valor de la base y el valor de la altura de un triangulo, calcular su área y mostrarlo en un mensaje.
+
+// const base = prompt("Ingrese la base del triángulo");
+// const altura = prompt("Ingrese la altura del triángulo");
+// console.log(`El área del triángulo es de ${(base * altura) /2 }`);

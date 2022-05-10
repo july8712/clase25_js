@@ -69,5 +69,14 @@
 
 // Crear un programa que pida ingresar una edad y devuelva el equivalente de esas edad en años perro.
 
-const edad = prompt("Ingrese la edad del perro");
-console.log(`Su perro tiene ${edad*7}`);
+// const edad = prompt("Ingrese la edad del perro");
+// console.log(`Su perro tiene ${edad*7}`);
+
+// ----------------------------------------------------------------
+
+// Minutos a segundos
+
+// Crear un programa que pida ingresar una cantidad en minutos mediante un y muestre un mensaje con el resultado de la conversión en segundos.
+
+const minutos = prompt("Ingrese cantidad de minutos");
+console.log(`${minutos} minutos son el equivalente a ${minutos*60} segundos`);

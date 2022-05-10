@@ -78,5 +78,16 @@
 
 // Crear un programa que pida ingresar una cantidad en minutos mediante un y muestre un mensaje con el resultado de la conversión en segundos.
 
-const minutos = prompt("Ingrese cantidad de minutos");
-console.log(`${minutos} minutos son el equivalente a ${minutos*60} segundos`);
+// const minutos = prompt("Ingrese cantidad de minutos");
+// console.log(`${minutos} minutos son el equivalente a ${minutos*60} segundos`);
+
+// ----------------------------------------------------------------
+
+// Días a segundos
+
+// Crear un programa que pida ingresar una cantidad de días y muestre un mensaje con el resultado de la conversión en segundos.
+
+const dias = prompt("Ingrese cantidad de días");
+const horas = dias*24;
+const minutos = horas*60;
+console.log(`${dias} días equivalen a ${minutos*60} segundos`);

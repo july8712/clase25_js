@@ -87,7 +87,16 @@
 
 // Crear un programa que pida ingresar una cantidad de días y muestre un mensaje con el resultado de la conversión en segundos.
 
-const dias = prompt("Ingrese cantidad de días");
-const horas = dias*24;
-const minutos = horas*60;
-console.log(`${dias} días equivalen a ${minutos*60} segundos`);
+// const dias = prompt("Ingrese cantidad de días");
+// const horas = dias*24;
+// const minutos = horas*60;
+// console.log(`${dias} días equivalen a ${minutos*60} segundos`);
+
+// ----------------------------------------------------------------
+
+// Kilómetros a millas
+
+// Crear un programa que pida ingresar una cantidad de kilómetros y muestre un mensaje con el resultado de la conversión en millas.
+
+const km = prompt("Ingrese cantidad de km");
+console.log(`${km} km equivalen a ${km / 1.609344} millas`);

@@ -127,8 +127,23 @@
 
 // Crear un programa que pida al usuario ingresar un número, y luego el porcentaje que se desea obtener del mismo. Devolver un mensaje muestre el porcentaje de dicho número.
 
-const numero = prompt("Ingrese un número");
-const porcentaje = prompt("Ingrese el porcentaje");
-const cuenta = (numero * porcentaje)/100;
+// const numero = prompt("Ingrese un número");
+// const porcentaje = prompt("Ingrese el porcentaje");
+// const cuenta = (numero * porcentaje)/100;
 
-console.log(`${cuenta}`);
+// console.log(`${cuenta}`);
+
+// ----------------------------------------------------------------
+
+// Tiempo de viaje
+
+// Crear un programa que pida al usuario la distancia de su recorrido y mostrar en un mensaje cuánto tiempo tardaría en completar el recorrido en distintos medios de transporte, definiendo de antemano distintas velocidades para distintos medios de transporte (p. ej.: a pie: 5 km/hora, bici 10km/hora, etc.).
+
+const distancia = prompt("Ingrese la distancia a recorrer");
+
+const caminata = (distancia / 5)*60;
+const bicicleta = (distancia / 20)*60;
+const auto = (distancia / 40)*60;
+const colectivo = (distancia / 30)*60;
+
+console.log(`Esa distancia demora ${caminata} minutos caminando, ${bicicleta} minutos en bicicleta, ${auto} minutos en auto y ${colectivo} minutos en colectivo`);
